@@ -1,4 +1,28 @@
+:root {
+    --main-red: #e6563b;
+    --main-orange: #eb9d3a;
+    --main-green: #7cb06c;
+    --main-blue: #00aba9;
+    --main-bg-light: #f0f0f0;
+    --main-bg-accent: #e6e6e6;
+    --main-font-thick: "Anton";
+    --secondary-font-thin: "Abel";
+}
+.Anton-font {
+    font-family: var(--main-font-thick), sans-serif;
+}
+.Abel-font {
+    font-family: var(--secondary-font-thin), sans-serif;
+}
 .nav-img {
     height: 105px;
     width: 105px;
+}
+
+.main-header {
+    font-size: 4em;
+}
+
+.sec-header {
+    font-size: 2em;
 }
