@@ -8,6 +8,9 @@
     --main-font-thick: "Anton";
     --secondary-font-thin: "Abel";
 }
+body {
+    background-color: var(--main-bg-accent);
+}
 .Anton-font {
     font-family: var(--main-font-thick), sans-serif;
 }
@@ -25,4 +28,26 @@
 
 .sec-header {
     font-size: 2em;
+}
+
+.circle {
+    border: .5em solid #fff;
+
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.typeR {
+    background-color: var(--main-red);
+}
+.typeO {
+    background-color: var(--main-orange);
+}
+.typeG {
+    background-color: var(--main-green);
+}
+.typeB {
+    background-color: var(--main-blue);
 }
