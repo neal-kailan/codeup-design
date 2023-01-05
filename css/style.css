@@ -73,5 +73,39 @@ body {
     background-size: 100% auto;
     width: var(--img-width);
     height: calc(var(--img-width) * .665625);
+}
+
+.card-body {
+    width: 100%;
+    height: 50px;
+    /*background-color: blue;*/
 
 }
+.icon {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    height: 18px;
+    border-radius: 50%;
+    width: 18px;
+    color: #000;
+    font-family: var(--main-font-thick), sans-serif;
+    /*margin: 1em 0;*/
+    font-size: 1em;
+}
+
+.icon1 {
+    background-color: var(--main-red);
+}
+.icon2 {
+    background-color: var(--main-orange) ;
+}
+.icon3 {
+    background-color: var(--main-green);
+}
+.icon4 {
+    background-color: var(--main-blue);
+}
+
+
+
