@@ -7,6 +7,10 @@
     --main-bg-accent: #e6e6e6;
     --main-font-thick: "Anton";
     --secondary-font-thin: "Abel";
+    --img-width: 400px;
+}
+* {
+    box-sizing: border-box;
 }
 body {
     background-color: var(--main-bg-light);
@@ -59,7 +63,15 @@ body {
 .typeB {
     background-color: var(--main-blue);
 }
-hr {
-   height: .5em;
-    margin: 3em 0;
+.custom-hr {
+    border-bottom: solid rgb(92, 92, 92) .5px;
+    width: 100%;
+    margin-bottom: 3em;
+}
+.card-img1 {
+    background-image: url("/img/apple-ipad.jpg");
+    background-size: 100% auto;
+    width: var(--img-width);
+    height: calc(var(--img-width) * .665625);
+
 }
