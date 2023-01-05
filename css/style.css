@@ -132,3 +132,16 @@ body {
 .icon4 {
   background-color: var(--main-blue);
 }
+
+.thumbnail-img {
+/*background-size: 100% auto;*/
+width: 77px;
+height: 77px;
+  margin-bottom: 1.5em;
+  border: solid var(--main-bg-accent) 0.25em;
+}
+.textR {
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
