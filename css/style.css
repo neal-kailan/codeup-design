@@ -7,11 +7,11 @@
   --main-bg-accent: #e6e6e6;
   --main-font-thick: "Anton";
   --secondary-font-thin: "Abel";
-  --img-width: 400px;
+  --img-width: 300px;
 }
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 body {
   /* background-image: url("/img//macbook.jpg"); */
   background-color: var(--main-bg-light);
@@ -46,7 +46,7 @@ body {
   height: 100px;
   border-radius: 50%;
   width: 100px;
-  text-align-all: center;
+  /* text-align-all: center; */
   color: #fff;
   font-family: var(--main-font-thick), sans-serif;
   margin: 1em 0;
@@ -134,9 +134,9 @@ body {
 }
 
 .thumbnail-img {
-/*background-size: 100% auto;*/
-width: 77px;
-height: 77px;
+  /*background-size: 100% auto;*/
+  width: 77px;
+  height: 77px;
   margin-bottom: 1.5em;
   border: solid var(--main-bg-accent) 0.25em;
 }
