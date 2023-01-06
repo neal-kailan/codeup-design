@@ -7,25 +7,45 @@
   --main-bg-accent: #e6e6e6;
   --main-font-thick: "Anton";
   --secondary-font-thin: "Abel";
-  --img-width: 300px;
 }
+
 * {
   box-sizing: border-box;
 }
+
 body {
-  /* background-image: url("/img//macbook.jpg"); */
   background-color: var(--main-bg-light);
 }
+
 .Anton-font {
   font-family: var(--main-font-thick), sans-serif;
 }
+
 .Abel-font {
   font-family: var(--secondary-font-thin), sans-serif;
 }
+
+.color-R {
+  background-color: var(--main-red);
+}
+.color-O {
+  background-color: var(--main-orange);
+}
+.color-G {
+  background-color: var(--main-green);
+}
+.color-B {
+  background-color: var(--main-blue);
+}
+
+/* ******************************** Navbar ****************************** */
+
 .nav-img {
   height: 50px;
   width: 50px;
 }
+
+/* ***************************** Top Container *************************** */
 
 .main-header {
   font-size: 3.2em;
@@ -41,56 +61,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  border: 0.5em solid #fff;
+  width: 100px;
   height: 100px;
   border-radius: 50%;
-  width: 100px;
-  /* text-align-all: center; */
+  margin: 1em 0;
+  border: 0.5em solid #fff;
   color: #fff;
   font-family: var(--main-font-thick), sans-serif;
-  margin: 1em 0;
 }
 
-.typeR {
-  background-color: var(--main-red);
-}
-.typeO {
-  background-color: var(--main-orange);
-}
-.typeG {
-  background-color: var(--main-green);
-}
-.typeB {
-  background-color: var(--main-blue);
-}
 .custom-hr {
   border-bottom: solid rgb(92, 92, 92) 0.5px;
   width: 100%;
   margin-bottom: 3em;
 }
-.card-img {
-  border: solid var(--main-bg-accent) 0.5em;
 
-  background-size: 100% auto;
-  width: var(--img-width);
-  height: calc(var(--img-width) * 0.665625);
-}
-.card-img1 {
-  background-image: url("/img/apple-ipad.jpg"); /* for some reason this works in intellij */
-  background-image: url("../img/apple-ipad.jpg");
-}
-.card-img2 {
-  background-image: url("/img/macbook.jpg"); /* for some reason this works in intellij */
-  background-image: url("../img/macbook.jpg");
-}
-.card-img3 {
-  background-image: url("/img/man.jpg"); /* for some reason this works in intellij */
-  background-image: url("../img/man.jpg");
-}
-.card-img4 {
-  background-image: url("/img/security.jpg"); /* for some reason this works in intellij */
-  background-image: url("../img/security.jpg");
+/* ***************************** Bottom Container *************************** */
+/* ************************* Card *********************** */
+.card-image {
+  border: solid var(--main-bg-accent) 0.5em;
+  width: 100%;
+  height: 80%;
 }
 
 .card-body {
@@ -99,57 +90,36 @@ body {
   padding-top: 0;
   padding-left: 0.5em;
   padding-right: 0.5em;
-
-  /* bottom: -50px; */
-  /*background-color: blue;*/
 }
+
 .icon {
-  margin: 0 0.25em;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 18px;
   height: 18px;
   border-radius: 50%;
-  width: 18px;
+  margin: 0 0.25em;
   color: #000;
   font-family: var(--main-font-thick), sans-serif;
-  /*margin: 1em 0;*/
   font-size: 0.75em;
 }
-.card-cust {
-  width: var(--img-width);
+/* ************************* Sidebar *********************** */
+.sidebar-row {
+  padding-bottom: 2.5em;
 }
-
-.icon1 {
-  background-color: var(--main-red);
-}
-.icon2 {
-  background-color: var(--main-orange);
-}
-.icon3 {
-  background-color: var(--main-green);
-}
-.icon4 {
-  background-color: var(--main-blue);
-}
-
 .thumbnail-img {
-  /*background-size: 100% auto;*/
-  width: 77px;
+  max-width: 77px;
   height: 77px;
-  margin-bottom: 1.5em;
+  /* margin-bottom: 1.5em; */
   border: solid var(--main-bg-accent) 0.25em;
 }
-.textR {
-  margin-bottom: 1.5em;
-  font-weight: bold;
-  font-size: 1.3em;
-}
-.lastTweet {
 
+.thumbnail-text {
+  font-size: 1.4em;
 }
-.sideBar-lastTweet {
-  font-family: "Arial";
-  font-weight: 500;
+
+.sideBar-tweet {
+  font-family: "Arial", sans-serif;
   line-height: 1.2em;
 }
