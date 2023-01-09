@@ -81,15 +81,13 @@ body {
 .card-image {
   border: solid var(--main-bg-accent) 0.5em;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .card-body {
   width: 100%;
-  height: 50px;
-  padding-top: 0;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  height: 2.5em;
+  padding: 0 0.5em 0 0.5em;
 }
 
 .icon {
@@ -111,7 +109,6 @@ body {
 .thumbnail-img {
   max-width: 77px;
   height: 77px;
-  /* margin-bottom: 1.5em; */
   border: solid var(--main-bg-accent) 0.25em;
 }
 
@@ -122,4 +119,14 @@ body {
 .sideBar-tweet {
   font-family: "Arial", sans-serif;
   line-height: 1.2em;
+}
+
+/* ***************** Lessons Learned **************** */
+
+.img-bg {
+  background-image: url("../img/apple-ipad.jpg");
+  background-size: cover;
+  border: solid var(--main-bg-accent) 0.5em;
+  width: 100%;
+  height: 100%;
 }
